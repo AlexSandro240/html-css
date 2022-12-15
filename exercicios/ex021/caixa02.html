@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+        }
+
+        header {
+            background-color: azure;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(165, 165, 165);
+            padding: 5px;
+            box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.479);
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin: 2px;
+
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+
+        }
+
+        nav>a:active {
+            color: yellow;
+        }
+
+        main {
+            background-color: azure;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 2px 3px 3px rgba(2, 2, 2, 0.315);
+        }
+
+        article {
+            background-color: lightgrey;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer {
+            background-color: black;
+            padding: 4px;
+            margin: 0px;
+            text-align: center;
+            color: dimgray;
+        }
+
+        footer > p {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 5px;
+            border-radius: 118px;
+        }
+
+        #bola>p {
+            margin: 0px;
+            text-align: center;
+            padding: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">LINK1</a>
+            <a href="#">LINK2</a>
+            <a href="#">LINK3</a>
+            <a href="#">LINK4</a>
+            <a href="#">LINK5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="asssuntos">
+            <p>Esportes || Política || Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias do Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus voluptas, dolorem provident
+                    sapiente eveniet voluptates maiores cupiditate, magni reprehenderit, nulla aliquid minima. Pariatur
+                    repellat quaerat nesciunt obcaecati aspernatur dolore temporibus?</p>
+                <aside>
+                    <p>Artigo escrito por Fulano da Silva</p>
+                </aside>
+            </article>
+        </section>
+        <section>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Curso em Vídeo</p>
+    </footer>
+</body>
+
+</html>
