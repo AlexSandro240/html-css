@@ -1,5 +1,5 @@
 # html-css
- Curso de HTML5 e CSS3 do CursoEmVideo 
+ Curso de HTML5 e CSS3 do CursoEmVideo :smiley:
 
 
-<a href="https://alexsandro240.github.io/html-css/desafios/d010/android.html" target="_blank"> Acesse o Projeto do Site Android </a>
+<a href="https://alexsandro240.github.io/html-css/desafios/d010/android.html" target="_blank"> Acesse o Projeto do Site Android </a> :boy:
