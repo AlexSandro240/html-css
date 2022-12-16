@@ -31,7 +31,6 @@
 body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
-    overflow-x: hidden;
 }
 
 .externo::after{
@@ -79,7 +78,7 @@ nav>a {
     text-decoration: none;
     font-weight: bold;
     transition: all .5s ease;
-    margin: 5px;
+    margin: 2px;
     border-radius: 5px;
 
 }
@@ -87,7 +86,7 @@ nav>a {
 nav > a:hover {
     color: var(--cor5);
     background-color: var(--cor3);
-    padding: 8px;
+    padding: 3px;
 
 }
 
