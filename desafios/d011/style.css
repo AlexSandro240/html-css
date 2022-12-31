@@ -15,7 +15,8 @@ header{
     text-align: center;
     background-color: black;
     color: white;
-    padding: 60px;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
     font-family: 'Passion One', cursive;
     font-size: 3vw;
     letter-spacing: 2px; 
